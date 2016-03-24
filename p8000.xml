@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+<project path="device/elephone/p8000" name="visi0nary/android_device_elephone_p8000" remote="github" revision="cm-12.1"/>
 
-  <project path="device/elephone/p8000" name="visi0nary/android_device_elephone_p8000" remote="github" revision="cm-12.1"/>
+<project path="kernel/elephone/p8000" name="gueste/android_kernel_elephone_p8000" remote="github" revision="master"/>
 
-  <project path="kernel/elephone/p8000" name="visi0nary/android_kernel_elephone_p8000" remote="github" revision="stable"/>
-
-  <project path="vendor/elephone/p8000" name="visi0nary/android_vendor_elephone_p8000" remote="github" revision="master"/>
+<project path="vendor/elephone/p8000" name="visi0nary/android_vendor_elephone_p8000" remote="github" revision="master"/>
 
 
 </manifest>
