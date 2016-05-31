@@ -7,4 +7,6 @@
 
 <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="github" revision="android-6.0"/>
 
+<project path="packages/apps/Snap" name="visi0nary/android_packages_apps_Snap.git" remote="github" revision="cm-12.1"/>
+
 </manifest>
