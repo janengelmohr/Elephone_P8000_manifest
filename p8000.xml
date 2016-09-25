@@ -1,14 +1,10 @@
 <manifest>
-<project path="device/elephone/p8000" name="visi0nary/android_device_elephone_p8000" remote="github" revision="cm-12.1"/>
+<project path="device/elephone/p8000" name="visi0nary/android_device_elephone_p8000" remote="github" revision="cm-13-testing"/>
 
-<project path="device/mediatek/mt6753_common" name="visi0nary/android_device_mt6753_common" remote="github" revision="cm-12.1"/>
+<project path="kernel/elephone/p8000" name="visi0nary/android_kernel_elephone_p8000" remote="github" revision="cm-13.0-testing"/>
 
-<project path="kernel/elephone/p8000" name="visi0nary/android_kernel_elephone_p8000" remote="github" revision="cm-12.1"/>
+<project path="vendor/elephone/p8000" name="visi0nary/android_vendor_elephone_p8000" remote="github" revision="cm-13.0"/>
 
-<project path="vendor/elephone/p8000" name="visi0nary/android_vendor_elephone_p8000" remote="github" revision="master"/>
-
-<project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="github" revision="android-6.0"/>
-
-<project path="packages/apps/Snap" name="visi0nary/android_packages_apps_Snap.git" remote="github" revision="cm-12.1"/>
+<project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-13.0"/>
 
 </manifest>
