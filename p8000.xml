@@ -1,14 +1,31 @@
 <manifest>
-<project path="device/elephone/p8000" name="visi0nary/android_device_elephone_p8000" remote="github" revision="cm-12.1"/>
-
-<project path="device/mediatek/mt6753_common" name="visi0nary/android_device_mt6753_common" remote="github" revision="cm-12.1"/>
-
-<project path="kernel/elephone/p8000" name="visi0nary/android_kernel_elephone_p8000" remote="github" revision="cm-12.1"/>
-
+<project path="device/elephone/p8000" name="visi0nary/android_device_elephone_p8000" remote="github" revision="cm-13-testing"/>
+<project path="kernel/elephone/p8000" name="visi0nary/android_kernel_elephone_p8000" remote="github" revision="cm-13.0-testing"/>
 <project path="vendor/elephone/p8000" name="visi0nary/android_vendor_elephone_p8000" remote="github" revision="master"/>
-
-<project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="github" revision="android-6.0"/>
-
-<project path="packages/apps/Snap" name="visi0nary/android_packages_apps_Snap.git" remote="github" revision="cm-12.1"/>
-
+<project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-13.0"/>
+<!-- xen0n's repos-->
+<remove-project name="CyanogenMod/android_frameworks_base"/>
+<project path="frameworks/base" name="xen0n/android_frameworks_base_mtk" revision="cm-13.0"/>
+<remove-project name="CyanogenMod/android_frameworks_native"/>
+<project path="frameworks/native" name="xen0n/android_frameworks_native_mtk" revision="cm-13.0"/>
+<remove-project name="CyanogenMod/android_hardware_libhardware"/>
+<project path="hardware/libhardware" name="xen0n/android_hardware_libhardware_mtk" revision="cm-13.0"/>
+<remove-project name="CyanogenMod/android_frameworks_opt_telephony"/>
+<project path="frameworks/opt/telephony" name="xen0n/android_frameworks_opt_telephony_mtk" revision="cm-13.0"/>
+<remove-project name="CyanogenMod/android_frameworks_av"/>
+<project path="frameworks/av" name="xen0n/android_frameworks_av_mtk" revision="cm-13.0"/>
+<remove-project name="CyanogenMod/android_system_core"/>
+<project path="system/core" name="xen0n/android_system_core_mtk" revision="cm-13.0"/>
+<remove-project name="CyanogenMod/android_hardware_libhardware_legacy"/>
+<project path="hardware/libhardware_legacy" name="xen0n/android_hardware_libhardware_legacy_mtk" revision="cm-13.0"/>
+<remove-project name="CyanogenMod/android_packages_services_Telephony"/>
+<project path="packages/services/Telephony" name="xen0n/android_packages_services_Telephony_mtk" revision="cm-13.0"/>
+<remove-project name="CyanogenMod/android_packages_services_Telecomm"/>
+<project path="packages/services/Telecomm" name="xen0n/android_packages_services_Telecomm_mtk" revision="cm-13.0"/>
+<remove-project name="CyanogenMod/android_system_netd"/>
+<project path="system/netd" name="xen0n/android_system_netd_mtk" revision="cm-13.0"/>
+<remove-project name="CyanogenMod/android_system_vold"/>
+<project path="system/vold" name="xen0n/android_system_vold_mtk" revision="cm-13.0"/>
+<remove-project name="CyanogenMod/android_frameworks_opt_net_ims"/>
+<project path="frameworks/opt/net/ims" name="xen0n/android_frameworks_opt_net_ims_mtk" revision="cm-13.0"/>
 </manifest>
